@@ -43,62 +43,12 @@ body {
     box-shadow: 0px 0px 1px 1px rgba(0, 0, 0, 0.1);
 }
 
-#sub-nav {
-    transition: all 0.5s;
-}
-
-.sub-navbar {
-    position: relative;
-    width: 100%;
-    height: auto;
-    padding: 1%;
-    transition: all 0.4s;
-    box-shadow: inset 0px 0px 2px 2px rgba(0, 0, 0, 0.1);
-    overflow: hidden;
-}
-
-.plat-row {
-    position: relative;
-    top: 0px;
-}
-
-.plat-row-late {
-    display: none;
-    opacity: 0;
-    padding-top: 2%;
-}
-
-.plat-icon {
-    position: relative;
-
-}
-
-.plat-column {
-    position: relative;
-}
-
 .menu-icon {
     position: absolute;
     right: 5%;
     top: 10%;
     z-index: 3;
     cursor: pointer;
-}
-
-.plat-card {
-    position: relative;
-    width: 80%;
-    height: 40px;
-    left: 8%;
-    box-shadow: 0px 0px 2px 2px rgba(0, 0, 0, 0.1);
-    padding: 2%;
-    transition: all 0.4s;
-    text-align: center;
-    cursor: pointer;
-}
-
-.plat-card:hover {
-    box-shadow: 0px 0px 2px 2px rgba(187, 18, 18, 0.2);
 }
 
 .cover-img {
@@ -121,11 +71,7 @@ body {
     height: auto;
     background-color: rgb(248, 248, 245);
     padding-top: 2%;
-}
 
-.table-container {
-    position: relative;
-    padding: 3%;
 }
 
 .image-table {
@@ -144,6 +90,8 @@ body {
 .head-row {
     background: linear-gradient(to bottom, rgb(214, 48, 49), rgb(214, 57, 57)) !important;
     color: white;
+    font-weight: 300;
+    font-size: 0.9em;
     box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.2);
 }
 
@@ -206,4 +154,17 @@ td {
 div[class*="menu-box"]>div {
     opacity: 0;
     transition: all 0.5s;
+}
+
+.image-filter {
+    position: relative;
+    width: 100%;
+    height: auto;
+    padding: 1%;
+}
+
+.image-selection {
+    position: relative;
+    height: 30px;
+    width: auto;
 }
